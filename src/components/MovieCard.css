@@ -1,0 +1,24 @@
+.movie-card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  margin: 10px;
+}
+
+.movie-card-content {
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+
+.movie-card h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
